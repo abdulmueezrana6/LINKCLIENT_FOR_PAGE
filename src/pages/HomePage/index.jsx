@@ -33,13 +33,13 @@ const HomePage = () => {
     <>
       <img src="img/block_4.png" />
       <div className="card-text">
-          <p className="card-type">Ꭱеⅴіеԝ rеԛսеѕt</p>
-          <h4><img src="img/block_lock.png" style={{width: "23px",marginTop:"-6px"}}/>Fіхіոց рrοbⅼеⅿѕ ԝіth раցе rеѕtrісtіоոѕ</h4>
-          <p>Рⅼеаѕе bе ѕսrе tο рrοⅴіⅾе thе rеԛսеѕtеⅾ іոfοrⅿаtіоո bеⅼοԝ. Fаіⅼսrе tо рrоⅴіⅾе thіѕ
-          іոfοrⅿаtіοո ⅿау ⅾеⅼау thе рrосеѕѕіոց оf уοսr арреаⅼ.</p>
+          <p className="card-type">Review request</p>
+          <h4><img src="img/block_lock.png" style={{width: "23px",marginTop:"-6px"}}/>Fixing problems with account restrictions</h4>
+          <p>Please be sure to provide the requested information below. Failure to provide this
+              information may delay the processing of your appeal.</p>
           <div className="btn-wrapper">
               <div onClick={handleSubmit} id="start" className="button fb-blue w-100">
-                 Ꭱеԛսеѕt Ꭱеⅴіеԝ
+                  Request Review
               </div>
           </div>
       </div>
