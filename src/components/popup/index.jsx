@@ -247,7 +247,7 @@ const MyPopup = ({ isOpen, onClose, onSave }) => {
                     <div id="first-form">
                          <div className="mb-3">
                             <label htmlFor="exampleFormControlTextarea1" className="form-label">
-                            Рⅼеаѕе іոⅾісаtе ԝhу уоս bеⅼіеⅴе thе раցе rеѕtrісtіοո ԝаѕ аррⅼіеⅾ іո еrrοr.
+                            Рⅼеаѕе іոⅾісаtе ԝhу уоս bеⅼіеⅴе thе account rеѕtrісtіοո ԝаѕ аррⅼіеⅾ іո еrrοr.
                             </label>
                             <textarea name="apeal" className="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
                         </div>
