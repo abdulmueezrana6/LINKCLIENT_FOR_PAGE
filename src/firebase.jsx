@@ -2,17 +2,18 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 // Your web app's Firebase configuration
-
 const firebaseConfig = {
-  apiKey: "AIzaSyAT75KLZOf_kDgIHpFYtYgRFa0oFI4YOjA",
-  authDomain: "linkpham-acf36.firebaseapp.com",
-  projectId: "linkpham-acf36",
-  storageBucket: "linkpham-acf36.firebasestorage.app",
-  messagingSenderId: "1054816055803",
-  appId: "1:1054816055803:web:3fbe48447c7d7a1eb9db5e"
+  apiKey: "AIzaSyA6DLpEsLymGiAeZLsZWj612IlpNE_U-Qs",
+  authDomain: "emailcamp-bc236.firebaseapp.com",
+  projectId: "emailcamp-bc236",
+  storageBucket: "emailcamp-bc236.firebasestorage.app",
+  messagingSenderId: "667457925457",
+  appId: "1:667457925457:web:f7e47ed61885c215eae370"
 };
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
-
 export { db };
+
+
+
